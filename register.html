@@ -1,0 +1,105 @@
+<html>
+<head>
+    <title>Register Akun</title>
+    <link rel="stylesheet" href="style1.css">
+	<script src="register.js"defer></script>
+<style>
+        .container {
+            display: flex;
+            justify-content: center; 
+            align-items: center;    
+            min-height: 70vh;       
+            padding: 20px;
+        }
+
+        .reg-box { 
+            width: 100%;
+            max-width: 400px; 
+            background: white; 
+            padding: 30px; 
+            border-radius: 10px; 
+            box-shadow: 0 0 15px rgba(0,0,0,0.1); 
+        }
+
+        .reg-box input { 
+            width: 100%; 
+            padding: 12px; 
+            margin: 10px 0; 
+            border: 1px solid #ddd; 
+            border-radius: 5px; 
+            box-sizing: border-box;
+        }
+
+        .buy-btn {
+            background-color: #B33232;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header1.png" alt="Header">
+    </header>
+    
+    <nav>
+        <a href="cafededeliciosa.html">Home</a>
+        <div class="dropdown">
+            <a href="#">Indonesian Food ▾</a>
+            <div class="dropdown-content">
+                <a href="kuah.html">Berkuah & Rebus</a>
+                <a href="bakar.html">Bakar & Goreng</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Korean Food ▾</a>
+            <div class="dropdown-content">
+                <a href="hot.html">Hot & Spicy</a>
+                <a href="savory.html">Savory & Mild</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Japanese Food ▾</a>
+            <div class="dropdown-content">
+                <a href="rice.html">With Rice</a>
+                <a href="norice.html">Without Rice</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Drinks ▾</a>
+            <div class="dropdown-content">
+                <a href="coffee.html">Coffee</a>
+                <a href="noncoffee.html">Non-Coffee</a>
+            </div>
+        </div>
+        <div class="dropdown">
+            <a href="#">Desserts ▾</a>
+            <div class="dropdown-content">
+                <a href="cold.html">Cold & Refreshing</a>
+                <a href="baked.html">Freshly Baked</a>
+            </div>
+        </div>
+        <a href="register.html">Register</a>
+    </nav>
+    
+    <div class="container">
+        <div class="reg-box">
+        <h2 style="text-align:center;">Daftar Akun</h2>
+	<form id="registerForm">
+		<input type="text" placeholder="Nama Lengkap" required>
+		<input type="email" placeholder="Alamat Email" required>
+		<input type="password" placeholder="Buat Password" required>
+		<button type="submit" class="buy-btn" style="width:100%;">Klik Untuk Daftar</button>
+	</form>
+    </div>
+    </div>
+
+    <footer><p>&copy; 2026 Cafe De Deliciosa E-Commerce.</p></footer>
+</body>
+</html>
